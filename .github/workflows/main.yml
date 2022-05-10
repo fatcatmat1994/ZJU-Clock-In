@@ -28,5 +28,11 @@ jobs:
         env:
           ACCOUNT: ${{ secrets.ACCOUNT }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          ACCOUNT2: ${{ secrets.ACCOUNT2 }}
+          PASSWORD2: ${{ secrets.PASSWORD2 }}
+          ACCOUNT3: ${{ secrets.ACCOUNT3 }}
+          PASSWORD3: ${{ secrets.PASSWORD3 }}
+          ACCOUNT4: ${{ secrets.ACCOUNT4 }}
+          PASSWORD4: ${{ secrets.PASSWORD4 }}
         run: |
           python3 clock-in.py ${ACCOUNT} ${PASSWORD} ${EAI_SESS}
