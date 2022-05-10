@@ -36,3 +36,6 @@ jobs:
           PASSWORD4: ${{ secrets.PASSWORD4 }}
         run: |
           python3 clock-in.py ${ACCOUNT} ${PASSWORD} ${EAI_SESS}
+          python3 clock-in.py ${ACCOUNT2} ${PASSWORD2} ${EAI_SESS}
+          python3 clock-in.py ${ACCOUNT3} ${PASSWORD3} ${EAI_SESS}
+          python3 clock-in.py ${ACCOUNT4} ${PASSWORD4} ${EAI_SESS}
